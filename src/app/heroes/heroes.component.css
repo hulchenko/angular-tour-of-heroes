@@ -1,0 +1,29 @@
+.heroes {
+    list-style: none;
+    margin-left: 2rem;
+    padding: 0;
+    display: block;
+}
+
+.hero {
+    border: 1px solid #777;
+    width: 12rem;
+    margin: 5px;
+    display: block;
+    border-radius: 5px;
+}
+
+.hero:hover {
+    background: #eee;
+    left: 0.1rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.badge {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    margin-right: 0.1rem;
+    padding: 5px;
+}
