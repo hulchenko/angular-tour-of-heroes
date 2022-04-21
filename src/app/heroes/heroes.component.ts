@@ -11,15 +11,17 @@ import { AppComponent } from '../app.component'
 })
 export class HeroesComponent implements OnInit {
   heroes = HEROES;
-  hero: Hero = {
-    id: 1,
-    name: 'Vadym'
-  };
+  selectedHero?: Hero;
 
   constructor() {
   }
 
   ngOnInit(): void {
+  }
+
+  onSelect(hero: Hero): void {
+    this.selectedHero = hero;
+    console.log(`SELECTED: `, this.selectedHero)
   }
 
 }

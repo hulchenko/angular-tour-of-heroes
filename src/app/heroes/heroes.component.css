@@ -27,3 +27,9 @@
     margin-right: 0.1rem;
     padding: 5px;
 }
+
+.selected {
+    background: #eee;
+    position: relative;
+    left: 0.1rem;
+}
