@@ -8,7 +8,9 @@ export class MessagesService {
   messages: string[] = [];
 
   add(message: string) {
-    this.messages.push(message)
+    if (!this.messages.includes(message)) {
+      this.messages.push(message)
+    }
   }
 
   clear() {
