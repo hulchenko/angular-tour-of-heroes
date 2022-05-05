@@ -16,7 +16,6 @@
 .hero:hover {
     background: #eee;
     left: 0.1rem;
-    cursor: pointer;
     position: relative;
 }
 
@@ -26,6 +25,10 @@
     display: inline-block;
     margin-right: 0.1rem;
     padding: 5px;
+}
+
+.name {
+    padding-left: 0.5rem;
 }
 
 .selected {
