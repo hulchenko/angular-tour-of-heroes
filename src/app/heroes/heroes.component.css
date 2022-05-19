@@ -11,11 +11,12 @@
     margin: 5px;
     display: flex;
     border-radius: 5px;
+    background-color: #fff;
     justify-content: space-between;
 }
 
 .hero:hover {
-    background: #eee;
+    background: #777;
     left: 0.1rem;
     position: relative;
 }
@@ -47,4 +48,13 @@
     background-color: lightcoral;
     margin: 0;
     padding: 0 5px;
+}
+
+.heroes-div {
+    text-align: center;
+}
+
+.list-heroes-div {
+    display: flex;
+    justify-content: center;
 }

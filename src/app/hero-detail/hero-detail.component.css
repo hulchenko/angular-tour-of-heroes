@@ -1,0 +1,8 @@
+.hero-detail-div {
+    text-align: center;
+}
+
+input#hero-name {
+    height: 1.5rem;
+    margin-top: 1rem;
+}

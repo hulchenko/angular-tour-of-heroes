@@ -1,0 +1,31 @@
+.nav-bar {
+    background-color: #222;
+    box-shadow: 5px 5px 25px #222;
+}
+
+.secondary-nav-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.secondary-nav-bar {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.secondary-nav-a {
+    padding: 2rem;
+    border: 1px solid #444;
+    background-color: #222;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.secondary-nav-a:hover {
+    background-color: #444;
+}
