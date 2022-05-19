@@ -9,8 +9,9 @@
     border: 1px solid #777;
     width: 12rem;
     margin: 5px;
-    display: block;
+    display: flex;
     border-radius: 5px;
+    justify-content: space-between;
 }
 
 .hero:hover {
@@ -35,4 +36,15 @@
     background: #eee;
     position: relative;
     left: 0.1rem;
+}
+
+.add-button {
+    background-color: lightgreen;
+    margin-left: 1rem;
+}
+
+.delete-button {
+    background-color: lightcoral;
+    margin: 0;
+    padding: 0 5px;
 }
